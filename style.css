@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: darkslategray
+  }
+    
+  .container {
+     color: white;
+     text-align: center;
+     position: relative;
+    }
+  
+  .corpName {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+  } 
+  
+  .tagLine {
+    position: absolute; 
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px; 
+  }
+  
+  .image {
+    max-width: 30px; /*let it fill to the max width of the container div */
+      height: 100px;
+    background-size: cover; 
+  }
+  
+   .button{
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 20px;
+          text-align: center;
+          text-decoration: none;
+          display:grid;
+          font-size: 36px;
+          margin: 10px; 
+          width: 100%; }
