@@ -1,0 +1,60 @@
+    
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-size: 30px
+}
+  
+.topnav {
+    background-color:goldenrod;
+    padding: 30px;
+
+  }
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding-right: 8px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.HeaderSection {
+    background-color: goldenrod;
+    align-items: left;
+    padding-bottom: 80px;
+    color: white
+    
+
+}
+
+
+.secondSection {
+  background-color: goldenrod;
+  align-items: left;
+  padding-bottom: 80px;
+  color: white
+}
+
+.leftImage {
+    float: left;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    background: cover;
+    
+}
+
+
+.rightImage {
+  float: right;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  background: cover;
+  
+}
