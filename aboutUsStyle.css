@@ -21,15 +21,13 @@ html, body {
     font-size: 20px;
   }
 
+
 .HeaderSection {
     background-color: goldenrod;
     align-items: left;
     padding-bottom: 80px;
     color: white
-    
-
 }
-
 
 .secondSection {
   background-color: goldenrod;
@@ -37,6 +35,13 @@ html, body {
   padding-bottom: 80px;
   color: white
 }
+
+.thirdSection {
+  background-color: darkgoldenrod;
+  color:white;
+  padding-bottom: 80px;
+}
+
 
 .leftImage {
     float: left;

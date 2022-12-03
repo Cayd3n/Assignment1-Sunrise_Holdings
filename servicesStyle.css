@@ -1,4 +1,10 @@
-    
+ 
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-size: 30px
+}
 .topnav {
     background-color:goldenrod;
     padding: 30px;
@@ -13,3 +19,35 @@
     text-decoration: none;
     font-size: 20px;
   }
+
+.overview {
+  color:white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("https://imageio.forbes.com/specials-images/imageserve/5d6ba3db68cb0a0008c1089e/Financial-and-Technical-Data-Analysis-Graph-Showing-Stock-Market-Trends/960x0.jpg?format=jpg&width=960");
+  padding-bottom: 40px;
+}
+
+.financials {
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("https://www.foodallergy.org/sites/default/files/styles/1680x680/public/2021-03/shutterstock_1083923609.jpg?h=90dcf04b&itok=3CGNcmZw");
+  padding-bottom: 40px;
+}
+
+
+.services {
+  color: goldenrod;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("https://i0.wp.com/www.tycoonstory.com/wp-content/uploads/2016/11/Tips-for-Talking-to-Investors-tycoonstory.png?fit=700%2C400&ssl=1");
+  padding-bottom: 40px;
+
+}
