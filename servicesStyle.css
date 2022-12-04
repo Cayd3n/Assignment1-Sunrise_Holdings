@@ -30,6 +30,11 @@ html, body {
   padding-bottom: 40px;
 }
 
+.overviewHeader {
+  padding-right: 40px; 
+  float:left
+  
+}
 .financials {
   color: white;
   background-size: cover;
@@ -40,9 +45,14 @@ html, body {
   padding-bottom: 100px;
 }
 
+.financialsText {
+  float:left; 
+  padding-right: 50px;
+}
+
 
 .services {
-  color: goldenrod;
+  color: white;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

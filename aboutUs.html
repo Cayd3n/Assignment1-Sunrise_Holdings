@@ -11,8 +11,44 @@
     font-family:'Times New Roman', Times, serif;
   }
 
-  body {
-    font-family:'Times New Roman', Times, serif;
+    
+
+  @media screen and (max-width: 768px)
+  {
+    .body {
+      height: 100%;
+      width: 600px;
+    }
+
+    .thirdSectionLeft {
+      width: 45%;
+      padding-right: 3%;
+      
+    }
+    .thirdSectionRight {
+       padding-bottom:10px;
+    }
+
+    .thirdSection {
+      font-size: 13px;
+    }
+
+    .thirdSectionHeader {
+      padding-right: 5%;
+      padding-left: 0px;
+
+    }
+    
+    .thirdSectionPara {
+      padding-right: 5%;
+      padding-left: 0px;
+    }
+
+    .topnav a {
+      font-size: 13px
+    }
+
+    
   }
   
   </style>
@@ -29,13 +65,13 @@
 
     <section class = 'thirdSection'> 
       <img src = "https://assets.entrepreneur.com/content/3x2/2000/20141125231100-workplace-transparency-boon-company-culture-built-trust.jpeg"
-      float="left"; width="45%" style="padding-right: 100px; ">
+      class = 'thirdSectionLeft' float="left">
       <img src = 'https://media.istockphoto.com/id/1194668220/photo/concentrated-young-african-man-in-formalwear.jpg?s=612x612&w=0&k=20&c=w1WhpvtZaWNrOLcmXKqyWDjEZ_9LJKjjnfWKgkREYcI='
-       width="45%"; style="padding-bottom:30px; ">
+      class = 'thirdSectionRight'>
       
       <section style= 'padding-bottom: 30px'></section>
 
-      <h1 style = 'float: left; padding-right: 300px; padding-left: 70px;'>
+      <h1 class = thirdSectionHeader>
         Transparency In Mind
       </h1>
       
@@ -43,7 +79,7 @@
         Investor In Focus
       </h1>
 
-      <p style = 'float:left; padding-right: 200px; padding-left: 70px; align-self: left;'>
+      <p class = thirdSectionPara>
       Transparency is a core part of our <br> business at Sunrise Holdings.
       Weekly<br> updates will be sent out to our<br> investors to keep you up to date <br>
       with our activities, ensuring our<br> investment processes to be<br> as clear as 

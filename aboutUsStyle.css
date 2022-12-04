@@ -42,13 +42,36 @@ html, body {
   padding-bottom: 80px;
 }
 
+.thirdSectionLeft {
+  width: 45%;
+  padding-right: 100px;
+}
+
+.thirdSectionRight {
+  width: 45%; 
+  padding-bottom:30px;
+}
+
+.thirdSectionHeader {
+  float: left; 
+  padding-right: 300px;
+  padding-left: 70px;
+}
+
+.thirdSectionPara {
+  float:left; 
+  padding-right: 200px; 
+  padding-left: 70px; 
+  align-self: left;
+}
+
 
 .leftImage {
     float: left;
     width: 100%;
     height: 100%;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 600px;
+    max-height: 600px;
     background: cover;
     
 }
@@ -58,8 +81,8 @@ html, body {
   float: right;
   width: 100%;
   height: 100%;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 600px;
+  max-height: 600px;
   background: cover;
   
 }

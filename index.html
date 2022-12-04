@@ -14,21 +14,50 @@
   body {
     font-family:'Times New Roman', Times, serif;
   }
-  
+  @media screen and (max-width: 768px) {
+    .regularText{
+      font-size: 25px;
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .button {
+      background-color:goldenrod;
+        border: none;
+        color: black;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        display:block;
+        font-size: 28px;
+        margin-left: 30%;
+        margin-right: 10%;
+        width: 40%;
+    }
+    .topnav a {
+      font-size: 15px
+    }
+    .logo {
+      max-width: 325px;
+    }
+  }
   </style>
 </head>
 
 <body>
+
   <div class="topnav">
     <a href="./index.html">Home</a>
     <a href="./aboutUs.html">About Us</a>
     <a href="./services.html">Services </a>
     <a href="./jobs.html">Jobs</a>
   </div>
+   
+
     <section class = container>
       <section class = headerSection  height = 100px width = 1000px> 
     <div class = "Image"> 
-    <img src = "images/Sunrise_Holdings.png" style="padding-top: 10px ; width: 400px ; background-color: white;" >
+    <img src = "images/Sunrise_Holdings.png" class = 'logo'>
     </div>
 
  
@@ -92,7 +121,6 @@
 </p>
 <a href = .\aboutUs.html class = "button" title = 'About Us'> Read More About Our Values</a>
 </section>
-
 </body>
 
 </html>
